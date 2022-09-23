@@ -3,3 +3,108 @@ Header background - #FFDBAA
 button - #805215
 Header Text - #553100
 Main background - #D4A76A*/
+body {
+  margin: 0;
+  background-color: #D4A76A;
+}
+
+.header {
+  background-color: #FFDBAA;
+  width:inherit;
+  height: 150px;
+  border-bottom: 3px solid;
+  border-color: black;
+}
+
+#title {
+  color: #553100;
+  font-family: Arial, Helvetica, sans-serif;
+  display: inline-block;
+  padding-top: 8px;
+  padding-left: 70px;
+  font-size: 50px;
+  font-weight: bolder;
+  margin-right: 611px;
+}
+
+.nav-buttons {
+  display: inline-block;
+  width: 120px;
+  height: 40px;
+  margin: 20px;
+  padding:5px;
+  background-color:  #805215;
+}
+
+.nav-text {
+  color: white;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  margin: auto;
+  padding: 8px;
+}
+
+.container {
+  display: flex;
+  margin-top: 50px;
+}
+
+.mainBoxes {
+  height: 246px;
+  margin-left: 176px;
+  width: 395px;
+  background-color: white;
+  border: 1px solid;
+  border-color: black;
+  box-shadow: 0px 0px 3px 7px rgba(0, 0, 0, 0.5);
+}
+
+.aboutus {
+  height: 200px;
+  background-color: white;
+  margin-left: 75px;
+  margin-right: 75px;
+  margin-top: 75px;
+  border: 1px solid;
+  border-color: black;
+  border: 1px solid;
+  border-color: black;
+  box-shadow: 0px 0px 3px 7px rgba(0, 0, 0, 0.5);
+}
+
+h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  text-align: center;
+}
+
+main p {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.innerbutton {
+  background-color:  #805215;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  height: 30px;
+  width: 150px;
+  padding: 5px;
+  margin-top: 40px;
+}
+
+.innerbuttonAbout {
+  background-color:  #805215;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  height: 30px;
+  width: 1600px;
+  padding: 5px;
+  margin-top: 40px;
+}
+
+.innerText {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
